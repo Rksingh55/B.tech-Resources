@@ -2,9 +2,8 @@
     box-sizing: border-box;
 }
 
-.mainbody {
-overflow: hidden;
-    background-color: black;
+.mainbody{
+    overflow: hidden;
 }
 
 .logo {
@@ -245,3 +244,11 @@ button a{
     text-decoration: none;
 color: white;
 }
+@media only screen and (max-width: 500px) {
+    .rimt {
+        color:black;
+        text-shadow: 0 0 5px black;
+        font-size: 70px;
+        margin-top: 30px;
+    }
+  }
